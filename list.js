@@ -1,12 +1,10 @@
 /* Boutons Javanscript */
 
-var fruits, text, fLen, i;
-
-fruits = ["Bouton HTML.js", "Bouton CSS.js", "Bouton Javascript.js", "Bouton PHP.js"];
-fLen = fruits.length;
-text = "<ul>";
-for (i = 0; i < fLen; i++) {
-    text += "<li>" + fruits[i] + "</li>";
+var savoir = ["HTML", "CSS", "Javascript", "PHP"];
+var savoir_length = savoir.length;
+var text = "<ul>";
+for (var i = 0; i < savoir_length; i++) {
+    text += "<li><button>" + savoir[i] + "</button></li>";
 }
 text += "</ul>";
 document.body.innerHTML += text;
