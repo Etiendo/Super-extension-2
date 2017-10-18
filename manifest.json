@@ -1,0 +1,15 @@
+{
+
+    "description": "Une liste d'aide la recherche dev-web qui permet de pré-filtrer les recherches",
+    "manifest_version": 2,
+    "name": "Pop-up",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["*://google.fr/*"],
+            "js": ["list.js"]
+    }
+  ]
+
+}
