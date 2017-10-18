@@ -5,9 +5,15 @@
     "name": "Pop-up",
     "version": "1.0",
 
+    "browser_action": {
+        "browser_style": true,
+        "default_title": "Tableau",
+        "default_popup": "tableau.html"
+    },
+
     "content_scripts": [
         {
-            "matches": ["*://google.fr/*"],
+            "matches": ["*://*.google.*/*"],
             "js": ["list.js"]
     }
   ]
