@@ -2,7 +2,7 @@
 
     "description": "Une liste d'aide la recherche dev-web qui permet de pré-filtrer les recherches",
     "manifest_version": 2,
-    "name": "Pop-up",
+    "name": "Aide recherche",
     "version": "1.0",
 
     "content_scripts": [
